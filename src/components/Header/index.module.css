@@ -1,0 +1,19 @@
+.container {
+  background-color: #165315;
+  color: #fff;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.container small:first-child {
+  width: 50%;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* {
+  
+} */

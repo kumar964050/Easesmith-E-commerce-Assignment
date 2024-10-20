@@ -1,0 +1,133 @@
+.container {
+  padding: 20px;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  justify-content: center;
+  gap: 10px;
+  aspect-ratio: 6/6;
+}
+
+.icons {
+  font-size: 24px;
+}
+
+.product {
+  position: relative;
+}
+
+.product_img_section {
+  border: 1px solid #0000004d;
+  border-radius: 4px;
+  position: relative;
+  padding-bottom: 0;
+}
+.wishList_icon {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  cursor: pointer;
+}
+.product_img_section img {
+  width: 100%;
+  padding: 20px;
+}
+.product_img_section span {
+  color: #fff;
+  font-size: 14px;
+  font-family: Poppins;
+  font-weight: 600;
+  text-align: center;
+  display: block;
+  background-color: #165315;
+  padding: 5px;
+  line-height: 24px;
+  cursor: pointer;
+}
+
+/*  */
+.product_details_section {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.product_details_section h2 {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+}
+.product_details_section small {
+  color: #838383;
+  font-family: Poppins;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: left;
+}
+
+/* price */
+.price_container {
+  display: flex;
+  align-items: center;
+}
+.price_container span {
+  color: #5e5a5a;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: left;
+}
+.price_container del {
+  color: #5e5a5ab2;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+/* star icons */
+.icons_container {
+  display: flex;
+  align-items: center;
+}
+.star_icon {
+  font-size: 14px;
+  color: rgb(205, 205, 16);
+}
+
+.action_container {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.action_container > button {
+  width: 50%;
+  height: 30px;
+  border-radius: 10px;
+  border: 1px solid lightgray;
+}
+
+.action_container div {
+  width: 50%;
+  height: 30px;
+  color: #fff;
+  background-color: #165315;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+}
+.action_container div button {
+  height: 100%;
+  color: #fff;
+  width: 25px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.action_container div span {
+  font-size: 8px;
+}
